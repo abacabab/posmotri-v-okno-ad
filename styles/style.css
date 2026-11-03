@@ -109,7 +109,7 @@ ol {
 .content__card-link:hover {
   cursor: pointer;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-color: white;
 }
 
 .content__card-link:focus {
@@ -148,12 +148,16 @@ ol {
 }
 
 .content__video-card-description {
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 16.2px;
   display: -webkit-box;
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  color: white;
 }
 
 .content__video-card-thumbnail {
